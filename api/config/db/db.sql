@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS task(
+    id INT SERIAL PRIMARY KEY,
+    name VARCHAR UNIQUE,
+    done BOOLEAN DEFAULT(false)
+);
